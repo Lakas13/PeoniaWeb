@@ -1,0 +1,6248 @@
+{
+  "pages": {
+    "page_1": {
+      "id": "page_1",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_1"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "PEONIA",
+      "header": true,
+      "footer": false
+    },
+    "page_2": {
+      "id": "page_2",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_3"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "PROCESO",
+      "header": true,
+      "footer": false,
+      "bodyBackgroundColor": "var(--light)"
+    },
+    "page_3": {
+      "id": "page_3",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_4"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "PROYECTOS",
+      "header": true,
+      "footer": false,
+      "maxWidth": 1100,
+      "bodyBackgroundColor": "#ffffff"
+    },
+    "page_4": {
+      "id": "page_4",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_5"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "CONTACTO",
+      "header": true,
+      "footer": false
+    },
+    "page_5": {
+      "id": "page_5",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_17",
+        "SMALL": "layout_34"
+      },
+      "isDefault": true,
+      "isVisible": false,
+      "label": "Home",
+      "header": true,
+      "footer": false
+    },
+    "page_8": {
+      "id": "page_8",
+      "type": "LINK",
+      "label": "INSTAGRAM",
+      "linkUrl": "https://www.instagram.com/peoniajardines/",
+      "isVisible": true,
+      "openTarget": "_blank"
+    },
+    "page_14": {
+      "id": "page_14",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_68"
+      },
+      "isDefault": false,
+      "isVisible": false,
+      "label": "Proyect1",
+      "header": true,
+      "footer": false
+    },
+    "page_15": {
+      "id": "page_15",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_84"
+      },
+      "isDefault": false,
+      "isVisible": false,
+      "label": "Proyect2",
+      "header": true,
+      "footer": false
+    },
+    "page_16": {
+      "id": "page_16",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_96"
+      },
+      "isDefault": false,
+      "isVisible": false,
+      "label": "Proyect3",
+      "header": true,
+      "footer": false
+    },
+    "page_17": {
+      "id": "page_17",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_108"
+      },
+      "isDefault": false,
+      "isVisible": false,
+      "label": "Proyect4",
+      "header": true,
+      "footer": false
+    }
+  },
+  "layouts": {
+    "layout_1": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_2": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "2.00%",
+            "right": "69.9%",
+            "top": "50%",
+            "bottom": "11.8%",
+            "width": "25.3%",
+            "height": "71.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": true
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "left": "37.0%",
+            "right": "6.8%",
+            "top": "36.4%",
+            "bottom": "36.4%",
+            "width": "56.2%",
+            "height": "27.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_3": {
+      "type": "FIXED",
+      "content": {},
+      "order": []
+    },
+    "layout_4": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_8",
+          "bbox": {
+            "left": "196px",
+            "right": "696px",
+            "top": "29px",
+            "bottom": "529px",
+            "width": "500px",
+            "height": 520
+          },
+          "setting": {
+            "heightMode": "fixed"
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_30",
+          "bbox": {
+            "left": "196px",
+            "right": "696px",
+            "top": "29px",
+            "bottom": "529px",
+            "width": "500px",
+            "height": 520
+          },
+          "setting": {
+            "heightMode": "fixed"
+          }
+        }
+      },
+      "order": [
+        "0",
+        "5"
+      ]
+    },
+    "layout_5": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_47",
+          "bbox": {
+            "left": "5.5%",
+            "right": "66.4%",
+            "top": "9.9%",
+            "bottom": "19.7%",
+            "width": "28.1%",
+            "height": "70.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_48",
+          "bbox": {
+            "left": "38.3%",
+            "right": "7.6%",
+            "top": "4.7%",
+            "bottom": "13.1%",
+            "width": "54.1%",
+            "height": "82.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_17": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "10.6%",
+            "right": "10.00%",
+            "top": "3.2%",
+            "bottom": "13.0%",
+            "width": "50.00%",
+            "height": "125.2691%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": "4:3",
+            "lockParent": false,
+            "lockLayout": false
+          }
+        },
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_19",
+          "bbox": {
+            "left": "0.00%",
+            "right": "73.8%",
+            "top": "0.00%",
+            "bottom": "25.7%",
+            "width": "30.00%",
+            "height": "100.00%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "style": {
+              "transform": {
+                "rotate": 0
+              }
+            },
+            "heightMode": "fixed",
+            "aspectRatio": "8:15"
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_18": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "left": "0.00%",
+            "right": "0.00%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.00%",
+            "height": "177.7778%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": {},
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": "4:3"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_19": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_20": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_21": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_22": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_23": {
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "sectionId": "section_2",
+          "setting": {
+            "heightMode": "fit",
+            "offsetX": -5
+          },
+          "bbox": {
+            "left": 0,
+            "width": 6,
+            "height": "500px"
+          }
+        },
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_9",
+          "setting": {
+            "heightMode": "fit",
+            "offsetY": 0,
+            "offsetX": 5
+          },
+          "bbox": {
+            "left": 6,
+            "width": 6,
+            "height": "500px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_24": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "28.4%",
+            "width": "100.0%",
+            "height": "71.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_18",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "74.7%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "25.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_32": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_1",
+          "bbox": {
+            "left": "4.8%",
+            "right": "42.8%",
+            "top": "50%",
+            "bottom": "17.3%",
+            "width": "52.4%",
+            "height": "65.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": true
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "right": "11.0%",
+            "top": "50%",
+            "bottom": "16.5%",
+            "width": "16.7%",
+            "height": "59.3%",
+            "left": "260px"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0",
+        "2"
+      ]
+    },
+    "layout_33": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {}
+        }
+      },
+      "type": "FIXED",
+      "label": "Controller layout",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_34": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "sectionId": "section_1",
+          "bbox": {
+            "left": "10.6%",
+            "right": "10.6%",
+            "top": "11.7%",
+            "bottom": "61.2%",
+            "width": "78.8%",
+            "height": "27.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_35": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_7",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_36": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_6",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_37": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_5",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_38": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_4",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_39": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_3",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_41": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_14",
+          "bbox": {
+            "left": "0.0%",
+            "right": "-0.0%",
+            "top": "0.0%",
+            "bottom": "28.4%",
+            "width": "100.0%",
+            "height": "71.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_19",
+          "bbox": {
+            "left": "0.0%",
+            "right": "-0.0%",
+            "top": "75.3%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "24.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_51": {
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "sectionId": "section_17",
+          "setting": {
+            "heightMode": "fit",
+            "offsetX": -5
+          },
+          "bbox": {
+            "left": 0,
+            "width": 6,
+            "height": "500px"
+          }
+        },
+        "1": {
+          "type": "SECTION",
+          "sectionId": "section_18",
+          "setting": {
+            "heightMode": "fit",
+            "offsetX": 5
+          },
+          "bbox": {
+            "left": 6,
+            "width": 6,
+            "height": "500px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_52": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_31",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "28.4%",
+            "width": "100.0%",
+            "height": "71.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_32",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "74.7%",
+            "bottom": "-0.0%",
+            "width": "100.0%",
+            "height": "25.3%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_53": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_33",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "28.4%",
+            "width": "100.0%",
+            "height": "71.6%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_34",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "75.3%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "24.7%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_61": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_62": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_49",
+          "bbox": {
+            "left": "20.2%",
+            "right": "15.00%",
+            "top": "5.00%",
+            "bottom": "12.6%",
+            "width": "70.00%",
+            "height": "80.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_68": {
+      "type": "FLOW",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_56",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_57",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "width": "35%",
+            "height": "100%",
+            "bottom": -214
+          },
+          "setting": {
+            "isFloating": true,
+            "lockParent": true,
+            "floatingArea": 1
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_63",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_65",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_67",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_69",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "9": {
+          "type": "WIDGET",
+          "widgetId": "widget_73",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "10": {
+          "type": "WIDGET",
+          "widgetId": "widget_75",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "11": {
+          "type": "WIDGET",
+          "widgetId": "widget_77",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "12": {
+          "type": "WIDGET",
+          "widgetId": "widget_79",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "13": {
+          "type": "WIDGET",
+          "widgetId": "widget_81",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        }
+      },
+      "order": [
+        "2",
+        "4",
+        "5",
+        "13",
+        "6",
+        "7",
+        "9",
+        "10",
+        "11",
+        "12",
+        "3"
+      ]
+    },
+    "layout_72": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_54",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_73": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_62",
+          "bbox": {
+            "left": "14.9%",
+            "right": "15.1%",
+            "top": "150.00px",
+            "bottom": "50.0%",
+            "width": "70.0%",
+            "height": "40.40%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": "2:4"
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_74": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_64",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_75": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_66",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_76": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_68",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_77": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_70",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_79": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_74",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_80": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_76",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_81": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_78",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_82": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_80",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_83": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_82",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_84": {
+      "type": "FLOW",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_83",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_85",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "width": "35%",
+            "height": "100%",
+            "bottom": -214
+          },
+          "setting": {
+            "isFloating": true,
+            "lockParent": true,
+            "floatingArea": 1
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_87",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_89",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_91",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_93",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "9": {
+          "type": "WIDGET",
+          "widgetId": "widget_95",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "13": {
+          "type": "WIDGET",
+          "widgetId": "widget_103",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "14": {
+          "type": "WIDGET",
+          "widgetId": "widget_149",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        }
+      },
+      "order": [
+        "2",
+        "4",
+        "5",
+        "14",
+        "13",
+        "6",
+        "7",
+        "9",
+        "3"
+      ]
+    },
+    "layout_85": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_84",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_86": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_86",
+          "bbox": {
+            "left": "14.9%",
+            "right": "15.1%",
+            "top": "150.00px",
+            "bottom": "50.0%",
+            "width": "70.0%",
+            "height": "40.40%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": "2:4"
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_87": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_88",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_88": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_90",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_89": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_92",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_90": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_94",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_91": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_96",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_95": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_104",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_96": {
+      "type": "FLOW",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_105",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_107",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "width": "35%",
+            "height": "100%",
+            "bottom": -214
+          },
+          "setting": {
+            "isFloating": true,
+            "lockParent": true,
+            "floatingArea": 1
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_109",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_111",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_113",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_115",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "9": {
+          "type": "WIDGET",
+          "widgetId": "widget_117",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "10": {
+          "type": "WIDGET",
+          "widgetId": "widget_119",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "13": {
+          "type": "WIDGET",
+          "widgetId": "widget_125",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        }
+      },
+      "order": [
+        "2",
+        "4",
+        "5",
+        "13",
+        "6",
+        "7",
+        "9",
+        "10",
+        "3"
+      ]
+    },
+    "layout_97": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_106",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_98": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_108",
+          "bbox": {
+            "left": "14.9%",
+            "right": "15.1%",
+            "top": "150.00px",
+            "bottom": "50.0%",
+            "width": "70.0%",
+            "height": "40.40%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": "2:4"
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_99": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_110",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_100": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_112",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_101": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_114",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_102": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_116",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_103": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_118",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_104": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_120",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_107": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_126",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_108": {
+      "type": "FLOW",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_127",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_129",
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "width": "35%",
+            "height": "100%",
+            "bottom": -214
+          },
+          "setting": {
+            "isFloating": true,
+            "lockParent": true,
+            "floatingArea": 1
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_131",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_133",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "6": {
+          "type": "WIDGET",
+          "widgetId": "widget_135",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_137",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "9": {
+          "type": "WIDGET",
+          "widgetId": "widget_139",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "13": {
+          "type": "WIDGET",
+          "widgetId": "widget_147",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "14": {
+          "type": "WIDGET",
+          "widgetId": "widget_151",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        },
+        "15": {
+          "type": "WIDGET",
+          "widgetId": "widget_153",
+          "bbox": {
+            "left": "539px",
+            "right": "1054px",
+            "top": "239px",
+            "bottom": "681px",
+            "width": "515px",
+            "height": 807
+          },
+          "setting": {
+            "heightMode": "auto",
+            "width": "90%"
+          }
+        }
+      },
+      "order": [
+        "2",
+        "4",
+        "5",
+        "13",
+        "6",
+        "7",
+        "9",
+        "14",
+        "15",
+        "3"
+      ]
+    },
+    "layout_109": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_128",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_110": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_130",
+          "bbox": {
+            "left": "14.9%",
+            "right": "15.1%",
+            "top": "150.00px",
+            "bottom": "50.0%",
+            "width": "70.0%",
+            "height": "40.40%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": {}
+            },
+            "vCenter": false,
+            "hCenter": false,
+            "heightMode": "ratio",
+            "aspectRatio": "2:4"
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_111": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_132",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_112": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_134",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_113": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_136",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_114": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_138",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_115": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_140",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_119": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_148",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_120": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_150",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_121": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_152",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "layout_122": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_154",
+          "setting": {
+            "heightMode": "ratio",
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "aspectRatio": 0.64,
+            "style": {
+              "alignSelf": "flex-start"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "60.00%"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "space": 0,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
+    }
+  },
+  "exbVersion": "1.14.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/default/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "blankscrollable",
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_5",
+            "openType": "_self"
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_1/1714422818982.png",
+            "originalUrl": "${appResourceUrl}/images/widget_1/1714422818982.png",
+            "fileName": "1714422818982.png",
+            "originalName": "logo-largo-color.png",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/png",
+            "originalId": "1714422818982",
+            "isUseCompress": false,
+            "originalWidth": 250,
+            "originalHeight": 107
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null,
+          "imageFillMode": "FIT"
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_1",
+      "useDataSources": []
+    },
+    "widget_2": {
+      "uri": "widgets/common/menu/",
+      "version": "1.14.0",
+      "label": "Menú",
+      "config": {
+        "type": "nav",
+        "menuStyle": "default",
+        "vertical": false,
+        "advanced": true,
+        "standard": {
+          "textAlign": "center",
+          "gap": "-7px",
+          "showText": true,
+          "showIcon": false,
+          "iconPosition": "start"
+        },
+        "variant": {
+          "size": {
+            "fontSize": "0.875rem",
+            "lineHeight": 1.5,
+            "paddingX": "1rem",
+            "paddingY": "0.25rem"
+          },
+          "gutter": "0.25rem",
+          "icon": {
+            "spacing": "0.5rem"
+          },
+          "root": {
+            "borderRadius": "0.125rem"
+          },
+          "item": {
+            "default": {
+              "color": "#181818",
+              "bg": "transparent",
+              "border": {
+                "width": 0
+              },
+              "borderRadius": "0.125rem",
+              "icon": {
+                "size": "16px"
+              },
+              "size": "16px"
+            },
+            "hover": {
+              "color": "#d56b85",
+              "borderRadius": "0.125rem",
+              "icon": {
+                "color": "var(--primary)",
+                "size": "16px"
+              },
+              "size": "16px",
+              "bold": false
+            },
+            "active": {
+              "color": "#d56b85",
+              "borderRadius": "0.125rem",
+              "icon": {
+                "color": "var(--primary)",
+                "size": "16px"
+              },
+              "size": "16px"
+            },
+            "disabled": {
+              "color": "#989898",
+              "shadow": "none",
+              "borderRadius": "0.125rem"
+            }
+          }
+        },
+        "paper": {
+          "bg": "#f0f0f0",
+          "color": "#050505",
+          "paddingX": 0,
+          "paddingY": 0,
+          "border": {
+            "width": 0,
+            "color": "transparent"
+          }
+        }
+      },
+      "id": "widget_2"
+    },
+    "widget_3": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 2",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_3/1723204755021.jpeg",
+            "originalUrl": "${appResourceUrl}/images/widget_3/1723204755021.jpeg",
+            "fileName": "1723204755021.jpeg",
+            "originalName": "WhatsApp Image 2024-04-27 at 11.39.00 (9).jpeg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723204755021",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_3"
+    },
+    "widget_4": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 3",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_4/1723203273099.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_4/1723203273099.jpg",
+            "fileName": "1723203273099.jpg",
+            "originalName": "20240627_105548.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203273099",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_4"
+    },
+    "widget_5": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 4",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_5/1723203227664.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_5/1723203227664.jpg",
+            "fileName": "1723203227664.jpg",
+            "originalName": "IMG_0167.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203227664",
+            "isUseCompress": false,
+            "originalWidth": 1197,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_5"
+    },
+    "widget_6": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 5",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_12/1723203109568.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_12/1723203109568.jpg",
+            "fileName": "1723203109568.jpg",
+            "originalName": "IMG_2227.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203109568",
+            "isUseCompress": false,
+            "originalWidth": 2898,
+            "originalHeight": 2167
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_6"
+    },
+    "widget_7": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 6",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_31/1723203133778.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_31/1723203133778.jpg",
+            "fileName": "1723203133778.jpg",
+            "originalName": "1.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203133778",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 675
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_7"
+    },
+    "widget_8": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_8",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_23"
+        }
+      }
+    },
+    "widget_11": {
+      "uri": "widgets/common/controller/",
+      "version": "1.14.0",
+      "label": "Controlador de widget",
+      "config": {
+        "behavior": {
+          "onlyOpenOne": true,
+          "openStarts": [],
+          "displayType": "STACK",
+          "vertical": true,
+          "size": {},
+          "arrangement": "floating"
+        },
+        "appearance": {
+          "space": 0,
+          "advanced": true,
+          "card": {
+            "showLabel": false,
+            "labelGrowth": 0,
+            "avatar": {
+              "type": "primary",
+              "size": "lg",
+              "shape": "circle"
+            },
+            "showIndicator": false,
+            "showTooltip": true,
+            "variant": {
+              "default": {
+                "color": "#080808",
+                "bg": "#d56b85",
+                "border": {
+                  "color": "#076fe5",
+                  "width": "1px"
+                },
+                "bold": false
+              },
+              "hover": {
+                "bg": "#d56b85"
+              },
+              "active": {
+                "bg": "#d56b85",
+                "color": "#080808"
+              },
+              "disabled": {
+                "color": "#8b8b8b",
+                "bg": "#e3e3e3",
+                "border": {
+                  "color": "#e3e3e3"
+                }
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_11",
+      "layouts": {
+        "controller": {
+          "SMALL": "layout_33"
+        }
+      }
+    },
+    "widget_12": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 7",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_14",
+            "openType": "_self"
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_12/1723203109568.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_12/1723203109568.jpg",
+            "fileName": "1723203109568.jpg",
+            "originalName": "IMG_2227.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203109568",
+            "isUseCompress": false,
+            "originalWidth": 2898,
+            "originalHeight": 2167
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_12",
+      "useDataSources": []
+    },
+    "widget_14": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 9",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_15",
+            "openType": "_self"
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_14/1723203084562.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_14/1723203084562.jpg",
+            "fileName": "1723203084562.jpg",
+            "originalName": "20220909_113211.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203084562",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 569
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_14",
+      "useDataSources": []
+    },
+    "widget_18": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"font-size: 18px; letter-spacing: 0px;\">Proyecto 1﻿</span></p><p><span style=\"font-size: 14px; font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(0, 0, 0);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_18"
+    },
+    "widget_19": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 2",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"font-size: 18px; letter-spacing: 0px;\">Proyecto 2</span></p><p><span style=\"font-size: 14px; font-family: &quot;Open Sans&quot;, Arial, sans-serif; color: rgb(0, 0, 0);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_19"
+    },
+    "widget_30": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 6",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_30",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_51"
+        }
+      }
+    },
+    "widget_31": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 17",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_16",
+            "openType": "_self"
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_31/1723203133778.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_31/1723203133778.jpg",
+            "fileName": "1723203133778.jpg",
+            "originalName": "1.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203133778",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 675
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_31",
+      "useDataSources": []
+    },
+    "widget_32": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 7",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"letter-spacing: 0px; font-size: 18px;\">Proyecto 3﻿</span></p><p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_32"
+    },
+    "widget_33": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 18",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {
+            "linkType": "PAGE",
+            "value": "page_17",
+            "openType": "_self"
+          },
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_33/1723203163234.jpeg",
+            "originalUrl": "${appResourceUrl}/images/widget_33/1723203163234.jpeg",
+            "fileName": "1723203163234.jpeg",
+            "originalName": "WhatsApp Image 2024-04-27 at 11.39.00.jpeg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203163234",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 830
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_33",
+      "useDataSources": []
+    },
+    "widget_34": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 8",
+      "config": {
+        "text": "<p style=\"line-height: 2;\"><span style=\"letter-spacing: 0px; font-size: 18px;\">Proyecto 4</span></p><p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_34"
+    },
+    "widget_47": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 15",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px;\">Contacto:</span></p><p><br></p><p><span style=\"font-size: 20px;\">Teléfono :  +34 600 370 050 </span></p><p><br></p><p><span style=\"font-size: 20px;\">Mail: mercedes@peoniajardines.com</span></p><p><br></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_47"
+    },
+    "widget_48": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.14.0",
+      "label": "Mapa",
+      "config": {
+        "toolConfig": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": true,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 9027.977411,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -400917.9045232395,
+              "y": 4958849.336229879
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -401583.1455350514,
+            "ymin": 4958311.888374735,
+            "xmax": -400252.6635114275,
+            "ymax": 4959386.784085024
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "initialMapDataSourceID": "dataSource_1"
+      },
+      "id": "widget_48",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_61"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1",
+          "mainDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_49": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 16",
+      "config": {
+        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum que paho</span></p><p><br></p><p><span style=\"font-size: 15px;\">Lorem ipsum que pa ho,</span></p><p><span style=\"font-size: 15px;\">en el que pahó de donde paho ya pahaba donde paharon los de paha.</span></p><p><br></p><p><span style=\"font-size: 15px;\">Si pasaran donde paha va el paho al pahó.</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_49",
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill"
+        }
+      }
+    },
+    "widget_54": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 25",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_12/1723203109568.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_12/1723203109568.jpg",
+            "fileName": "1723203109568.jpg",
+            "originalName": "IMG_2227.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203109568",
+            "isUseCompress": false,
+            "originalWidth": 2898,
+            "originalHeight": 2167
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_54"
+    },
+    "widget_56": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 8",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_56",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_72"
+        }
+      }
+    },
+    "widget_57": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "label": "Panel fijo",
+      "config": null,
+      "id": "widget_57",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_73"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_62": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 17",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px;\">Jardín de cespitosas</span></p><p><br></p><p><span style=\"font-size: 15px;\">En este jardín, la inspiración proviene de la armonización con el entorno natural, optimizando el consumo de agua. Utilizamos especies autóctonas como madroños, phyllirea angustifolia y stippa, que reflejan la flora local y contribuyen a un ecosistema sostenible. La disposición de grandes extensiones de jabre proporciona una sensación de amplitud y serenidad, ofreciendo un espacio de tranquilidad y belleza. </span></p><p><br></p><p><span style=\"font-size: 15px;\">﻿Las imágenes muestran la evolución del jardín a través de diferentes épocas y estaciones. Desde el momento de la plantación, donde las plantas se presentan más pequeñas, hasta su pleno crecimiento en primavera y verano, capturamos la belleza dinámica de nuestro diseño paisajístico. Este enfoque no solo resalta la adaptabilidad de las plantas sino también la capacidad del jardín para ofrecer un espectáculo visual continuo y cambiante. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_62"
+    },
+    "widget_63": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 9",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_63",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_74"
+        }
+      }
+    },
+    "widget_64": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 26",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_64/1723210580935.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_64/1723210580935.jpg",
+            "fileName": "1723210580935.jpg",
+            "originalName": "419D7370-A002-47DD-8F8E-20DA1AC787E6.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210580935",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 894
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_64"
+    },
+    "widget_65": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 10",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_65",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_75"
+        }
+      }
+    },
+    "widget_66": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 27",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_66/1723210603779.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_66/1723210603779.jpg",
+            "fileName": "1723210603779.jpg",
+            "originalName": "83BB0C5EC-2ECE-44EE-A868-A6140FE75749.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210603779",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 897
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_66"
+    },
+    "widget_67": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 11",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_67",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_76"
+        }
+      }
+    },
+    "widget_68": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 28",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_68/1723210636642.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_68/1723210636642.jpg",
+            "fileName": "1723210636642.jpg",
+            "originalName": "IMG_0448.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210636642",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_68"
+    },
+    "widget_69": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 12",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_69",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_77"
+        }
+      }
+    },
+    "widget_70": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 29",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_70/1723134734209.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_70/1723134734209.jpg",
+            "fileName": "1723134734209.jpg",
+            "originalName": "IMG_2226.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723134734209",
+            "isUseCompress": false,
+            "originalWidth": 2938,
+            "originalHeight": 2214
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_70"
+    },
+    "widget_73": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 14",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_73",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_79"
+        }
+      }
+    },
+    "widget_74": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 31",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_74/1723210649276.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_74/1723210649276.jpg",
+            "fileName": "1723210649276.jpg",
+            "originalName": "IMG_0437.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210649276",
+            "isUseCompress": false,
+            "originalWidth": 1197,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_74"
+    },
+    "widget_75": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 15",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_75",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_80"
+        }
+      }
+    },
+    "widget_76": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 32",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_76/1723210661985.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_76/1723210661985.JPG",
+            "fileName": "1723210661985.JPG",
+            "originalName": "IMG_6305.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210661985",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_76"
+    },
+    "widget_77": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 16",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_77",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_81"
+        }
+      }
+    },
+    "widget_78": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 33",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_78/1723210674408.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_78/1723210674408.JPG",
+            "fileName": "1723210674408.JPG",
+            "originalName": "5.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210674408",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_78"
+    },
+    "widget_79": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 17",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_79",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_82"
+        }
+      }
+    },
+    "widget_80": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 34",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_80/1723210691639.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_80/1723210691639.jpg",
+            "fileName": "1723210691639.jpg",
+            "originalName": "4.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210691639",
+            "isUseCompress": false,
+            "originalWidth": 1166,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_80"
+    },
+    "widget_81": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 18",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_81",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_83"
+        }
+      }
+    },
+    "widget_82": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 35",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_82/1723210626337.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_82/1723210626337.jpg",
+            "fileName": "1723210626337.jpg",
+            "originalName": "f582d7f5-655a-4420-aa80-826835b84463.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210626337",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_82"
+    },
+    "widget_83": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 19",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_83",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_85"
+        }
+      }
+    },
+    "widget_84": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 36",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_84/1723210740520.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_84/1723210740520.jpg",
+            "fileName": "1723210740520.jpg",
+            "originalName": "20220909_113150.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210740520",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 569
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_84"
+    },
+    "widget_85": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "label": "Panel fijo 2",
+      "config": null,
+      "id": "widget_85",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_86"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_86": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 18",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px;\">Jardín de cespitosas</span></p><p><br></p><p><span style=\"font-size: 15px;\">En este jardín, la inspiración proviene de la armonización con el entorno natural, optimizando el consumo de agua. Utilizamos especies autóctonas como madroños, phyllirea angustifolia y stippa, que reflejan la flora local y contribuyen a un ecosistema sostenible. La disposición de grandes extensiones de jabre proporciona una sensación de amplitud y serenidad, ofreciendo un espacio de tranquilidad y belleza. </span></p><p><br></p><p><span style=\"font-size: 15px;\">﻿Las imágenes muestran la evolución del jardín a través de diferentes épocas y estaciones. Desde el momento de la plantación, donde las plantas se presentan más pequeñas, hasta su pleno crecimiento en primavera y verano, capturamos la belleza dinámica de nuestro diseño paisajístico. Este enfoque no solo resalta la adaptabilidad de las plantas sino también la capacidad del jardín para ofrecer un espectáculo visual continuo y cambiante. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_86"
+    },
+    "widget_87": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 20",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_87",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_87"
+        }
+      }
+    },
+    "widget_88": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 37",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_88/1723210751103.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_88/1723210751103.jpg",
+            "fileName": "1723210751103.jpg",
+            "originalName": "20220909_113211.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210751103",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 569
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_88"
+    },
+    "widget_89": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 21",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_89",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_88"
+        }
+      }
+    },
+    "widget_90": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 38",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_90/1723210764627.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_90/1723210764627.jpg",
+            "fileName": "1723210764627.jpg",
+            "originalName": "IMG_1566.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210764627",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 897
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_90"
+    },
+    "widget_91": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 22",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_91",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_89"
+        }
+      }
+    },
+    "widget_92": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 39",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_92/1723210822774.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_92/1723210822774.jpg",
+            "fileName": "1723210822774.jpg",
+            "originalName": "20220909_120627.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210822774",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 568
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_92"
+    },
+    "widget_93": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 23",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_93",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_90"
+        }
+      }
+    },
+    "widget_94": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 40",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_94/1723210836698.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_94/1723210836698.jpg",
+            "fileName": "1723210836698.jpg",
+            "originalName": "20220909_120707.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210836698",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 568
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_94"
+    },
+    "widget_95": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 24",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_95",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_91"
+        }
+      }
+    },
+    "widget_96": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 41",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_96/1723210845619.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_96/1723210845619.jpg",
+            "fileName": "1723210845619.jpg",
+            "originalName": "20220909_120847.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210845619",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 568
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_96"
+    },
+    "widget_103": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 28",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_103",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_95"
+        }
+      }
+    },
+    "widget_104": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 45",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_104/1723210808515.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_104/1723210808515.jpg",
+            "fileName": "1723210808515.jpg",
+            "originalName": "20220909_120618.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210808515",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 568
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_104"
+    },
+    "widget_105": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 29",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_105",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_97"
+        }
+      }
+    },
+    "widget_106": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 46",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_31/1723203133778.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_31/1723203133778.jpg",
+            "fileName": "1723203133778.jpg",
+            "originalName": "1.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723203133778",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 675
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_106"
+    },
+    "widget_107": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "label": "Panel fijo 3",
+      "config": null,
+      "id": "widget_107",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_98"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_108": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 19",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px;\">Jardín de cespitosas</span></p><p><br></p><p><span style=\"font-size: 15px;\">En este jardín, la inspiración proviene de la armonización con el entorno natural, optimizando el consumo de agua. Utilizamos especies autóctonas como madroños, phyllirea angustifolia y stippa, que reflejan la flora local y contribuyen a un ecosistema sostenible. La disposición de grandes extensiones de jabre proporciona una sensación de amplitud y serenidad, ofreciendo un espacio de tranquilidad y belleza. </span></p><p><br></p><p><span style=\"font-size: 15px;\">﻿Las imágenes muestran la evolución del jardín a través de diferentes épocas y estaciones. Desde el momento de la plantación, donde las plantas se presentan más pequeñas, hasta su pleno crecimiento en primavera y verano, capturamos la belleza dinámica de nuestro diseño paisajístico. Este enfoque no solo resalta la adaptabilidad de las plantas sino también la capacidad del jardín para ofrecer un espectáculo visual continuo y cambiante. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_108"
+    },
+    "widget_109": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 30",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_109",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_99"
+        }
+      }
+    },
+    "widget_110": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 47",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_110/1723210893537.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_110/1723210893537.jpg",
+            "fileName": "1723210893537.jpg",
+            "originalName": "2.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210893537",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 569
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_110"
+    },
+    "widget_111": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 31",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_111",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_100"
+        }
+      }
+    },
+    "widget_112": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 48",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_112/1723210908869.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_112/1723210908869.jpg",
+            "fileName": "1723210908869.jpg",
+            "originalName": "20220210_160443.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210908869",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 569
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_112"
+    },
+    "widget_113": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 32",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_113",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_101"
+        }
+      }
+    },
+    "widget_114": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 49",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_114/1723210938139.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_114/1723210938139.JPG",
+            "fileName": "1723210938139.JPG",
+            "originalName": "IMG_0453.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210938139",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_114"
+    },
+    "widget_115": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 33",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_115",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_102"
+        }
+      }
+    },
+    "widget_116": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 50",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_116/1723210947981.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_116/1723210947981.JPG",
+            "fileName": "1723210947981.JPG",
+            "originalName": "IMG_0435.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210947981",
+            "isUseCompress": false,
+            "originalWidth": 1060,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_116"
+    },
+    "widget_117": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 34",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_117",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_103"
+        }
+      }
+    },
+    "widget_118": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 51",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_118/1723210963778.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_118/1723210963778.JPG",
+            "fileName": "1723210963778.JPG",
+            "originalName": "C48DDD91-5C98-487D-A8AA-F238C6B27187.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210963778",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 800
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_118"
+    },
+    "widget_119": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 35",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_119",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_104"
+        }
+      }
+    },
+    "widget_120": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 52",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_120/1723210974538.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_120/1723210974538.JPG",
+            "fileName": "1723210974538.JPG",
+            "originalName": "8DBCCA2D-6F74-4A0E-BF9B-B29F3C0AEA33.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210974538",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 800
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_120"
+    },
+    "widget_125": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 38",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_125",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_107"
+        }
+      }
+    },
+    "widget_126": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 55",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_126/1723210923609.JPG",
+            "originalUrl": "${appResourceUrl}/images/widget_126/1723210923609.JPG",
+            "fileName": "1723210923609.JPG",
+            "originalName": "B0132BBC-8ECB-4F4C-9A8F-05C9D6C1F54F.JPG",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210923609",
+            "isUseCompress": false,
+            "originalWidth": 1196,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_126"
+    },
+    "widget_127": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 39",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_127",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_109"
+        }
+      }
+    },
+    "widget_128": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 56",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_3/1723123983724.jpeg",
+            "originalUrl": "${appResourceUrl}/images/widget_3/1723123983724.jpeg",
+            "fileName": "1723123983724.jpeg",
+            "originalName": "WhatsApp Image 2024-04-27 at 11.39.00.jpeg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723123983724",
+            "isUseCompress": false,
+            "originalWidth": 1652,
+            "originalHeight": 1142
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_128"
+    },
+    "widget_129": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.14.0",
+      "label": "Panel fijo 4",
+      "config": null,
+      "id": "widget_129",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_110"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "#ffffff",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_130": {
+      "uri": "widgets/common/text/",
+      "version": "1.14.0",
+      "label": "Texto 20",
+      "config": {
+        "text": "<p><span style=\"font-size: 20px;\">Jardín de cespitosas</span></p><p><br></p><p><span style=\"font-size: 15px;\">En este jardín, la inspiración proviene de la armonización con el entorno natural, optimizando el consumo de agua. Utilizamos especies autóctonas como madroños, phyllirea angustifolia y stippa, que reflejan la flora local y contribuyen a un ecosistema sostenible. La disposición de grandes extensiones de jabre proporciona una sensación de amplitud y serenidad, ofreciendo un espacio de tranquilidad y belleza. </span></p><p><br></p><p><span style=\"font-size: 15px;\">﻿Las imágenes muestran la evolución del jardín a través de diferentes épocas y estaciones. Desde el momento de la plantación, donde las plantas se presentan más pequeñas, hasta su pleno crecimiento en primavera y verano, capturamos la belleza dinámica de nuestro diseño paisajístico. Este enfoque no solo resalta la adaptabilidad de las plantas sino también la capacidad del jardín para ofrecer un espectáculo visual continuo y cambiante. </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_130"
+    },
+    "widget_131": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 40",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_131",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_111"
+        }
+      }
+    },
+    "widget_132": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 57",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_132/1723211052164.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_132/1723211052164.jpg",
+            "fileName": "1723211052164.jpg",
+            "originalName": "IMG_4686.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211052164",
+            "isUseCompress": false,
+            "originalWidth": 1196,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_132"
+    },
+    "widget_133": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 41",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_133",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_112"
+        }
+      }
+    },
+    "widget_134": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 58",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_134/1723211064188.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_134/1723211064188.jpg",
+            "fileName": "1723211064188.jpg",
+            "originalName": "IMG_4715.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211064188",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_134"
+    },
+    "widget_135": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 42",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_135",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_113"
+        }
+      }
+    },
+    "widget_136": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 59",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_136/1723211099044.jpeg",
+            "originalUrl": "${appResourceUrl}/images/widget_136/1723211099044.jpeg",
+            "fileName": "1723211099044.jpeg",
+            "originalName": "WhatsApp Image 2024-04-27 at 11.39.01.jpeg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211099044",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_136"
+    },
+    "widget_137": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 43",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_137",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_114"
+        }
+      }
+    },
+    "widget_138": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 60",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_138/1723211113750.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_138/1723211113750.jpg",
+            "fileName": "1723211113750.jpg",
+            "originalName": "WhatsApp Image 2024-04-27 at 11.39.00 (8).jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211113750",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_138"
+    },
+    "widget_139": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 44",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_139",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_115"
+        }
+      }
+    },
+    "widget_140": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 61",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_140/1723211125096.jpeg",
+            "originalUrl": "${appResourceUrl}/images/widget_140/1723211125096.jpeg",
+            "fileName": "1723211125096.jpeg",
+            "originalName": "WhatsApp Image 2024-04-27 at 11.39.00 (10).jpeg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211125096",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_140"
+    },
+    "widget_147": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 48",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_147",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_119"
+        }
+      }
+    },
+    "widget_148": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 65",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_148/1723211079601.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_148/1723211079601.jpg",
+            "fileName": "1723211079601.jpg",
+            "originalName": "IMG_4793.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211079601",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_148"
+    },
+    "widget_149": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 49",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_149",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_120"
+        }
+      }
+    },
+    "widget_150": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 66",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_150/1723210781525.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_150/1723210781525.jpg",
+            "fileName": "1723210781525.jpg",
+            "originalName": "20220909_113536.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723210781525",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 568
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_150"
+    },
+    "widget_151": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 50",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_151",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_121"
+        }
+      }
+    },
+    "widget_152": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 67",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_152/1723211169980.jpeg",
+            "originalUrl": "${appResourceUrl}/images/widget_152/1723211169980.jpeg",
+            "fileName": "1723211169980.jpeg",
+            "originalName": "WhatsApp Image 2024-04-27 at 11.39.00 (9).jpeg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211169980",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 900
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_152"
+    },
+    "widget_153": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Bloque 51",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_153",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_122"
+        }
+      }
+    },
+    "widget_154": {
+      "uri": "widgets/common/image/",
+      "version": "1.14.0",
+      "label": "Imagen 68",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "url": "${appResourceUrl}/images/widget_154/1723211150618.jpg",
+            "originalUrl": "${appResourceUrl}/images/widget_154/1723211150618.jpg",
+            "fileName": "1723211150618.jpg",
+            "originalName": "IMG_4722.jpg",
+            "imgSourceType": "BY_UPLOAD",
+            "fileFormat": "image/jpeg",
+            "originalId": "1723211150618",
+            "isUseCompress": false,
+            "originalWidth": 1200,
+            "originalHeight": 843
+          },
+          "imageDisplayQualityMode": "ORIGINAL",
+          "imgSourceType": "",
+          "srcExpression": null
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_154"
+    }
+  },
+  "widgetsManifest": {},
+  "views": {
+    "view_1": {
+      "id": "view_1",
+      "label": "Vista",
+      "layout": {
+        "LARGE": "layout_18",
+        "SMALL": "layout_35"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "#ffffff",
+      "backgroundIMage": {}
+    },
+    "view_2": {
+      "id": "view_2",
+      "label": "Vista 2",
+      "layout": {
+        "LARGE": "layout_19",
+        "SMALL": "layout_36"
+      }
+    },
+    "view_3": {
+      "id": "view_3",
+      "label": "Vista 3",
+      "layout": {
+        "LARGE": "layout_20",
+        "SMALL": "layout_37"
+      }
+    },
+    "view_4": {
+      "id": "view_4",
+      "label": "Vista 4",
+      "layout": {
+        "LARGE": "layout_21",
+        "SMALL": "layout_38"
+      }
+    },
+    "view_5": {
+      "id": "view_5",
+      "label": "Vista 5",
+      "layout": {
+        "LARGE": "layout_22",
+        "SMALL": "layout_39"
+      }
+    },
+    "view_6": {
+      "id": "view_6",
+      "label": "Vista 6",
+      "layout": {
+        "LARGE": "layout_24"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "#ffffff",
+      "backgroundIMage": {}
+    },
+    "view_13": {
+      "id": "view_13",
+      "label": "Vista 13",
+      "layout": {
+        "LARGE": "layout_41"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "#ffffff",
+      "backgroundIMage": {}
+    },
+    "view_21": {
+      "id": "view_21",
+      "label": "Vista 21",
+      "layout": {
+        "LARGE": "layout_52"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "#ffffff",
+      "backgroundIMage": {}
+    },
+    "view_22": {
+      "id": "view_22",
+      "label": "Vista 22",
+      "layout": {
+        "LARGE": "layout_53"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "#ffffff",
+      "backgroundIMage": {}
+    },
+    "view_23": {
+      "id": "view_23",
+      "label": "Vista 23",
+      "layout": {
+        "LARGE": "layout_62"
+      },
+      "backgroundPosition": "fit",
+      "backgroundColor": "#ffffff",
+      "backgroundIMage": {}
+    }
+  },
+  "sections": {
+    "section_1": {
+      "id": "section_1",
+      "label": "Sección",
+      "views": [
+        "view_1",
+        "view_2",
+        "view_3",
+        "view_4",
+        "view_5"
+      ],
+      "arrowsNav": {
+        "visible": true,
+        "size": 50,
+        "offset": -52
+      },
+      "style": {
+        "borderRadius": null,
+        "border": {
+          "color": null,
+          "type": "solid",
+          "width": "2px"
+        },
+        "boxShadow": {
+          "presetStyle": "shadow-none"
+        }
+      },
+      "dotsNav": {
+        "visible": false
+      }
+    },
+    "section_2": {
+      "id": "section_2",
+      "label": "Sección 2",
+      "views": [
+        "view_6"
+      ]
+    },
+    "section_9": {
+      "id": "section_9",
+      "label": "Sección 9",
+      "views": [
+        "view_13"
+      ]
+    },
+    "section_17": {
+      "id": "section_17",
+      "label": "Sección 17",
+      "views": [
+        "view_21"
+      ]
+    },
+    "section_18": {
+      "id": "section_18",
+      "label": "Sección 18",
+      "views": [
+        "view_22"
+      ]
+    },
+    "section_19": {
+      "id": "section_19",
+      "label": "Sección 19",
+      "views": [
+        "view_23"
+      ]
+    }
+  },
+  "dialogs": {},
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Distancia punto ideal C. Madrid",
+      "itemId": "6ef492ad17514ff7ad6f0d6fa8adf00e",
+      "portalUrl": "https://educacionesri.maps.arcgis.com"
+    }
+  },
+  "messageConfigs": {},
+  "attributes": {
+    "portalUrl": "https://educacionesri.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "title": "Peonia Copiar",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "sharedThemeVariables": {
+    "header": {},
+    "body": {},
+    "button": {},
+    "logo": {
+      "small": null,
+      "link": null
+    }
+  },
+  "originExbVersion": "1.14.0",
+  "pageStructure": [
+    {
+      "page_5": []
+    },
+    {
+      "page_3": []
+    },
+    {
+      "page_2": []
+    },
+    {
+      "page_1": []
+    },
+    {
+      "page_4": []
+    },
+    {
+      "page_8": []
+    },
+    {
+      "page_14": []
+    },
+    {
+      "page_15": []
+    },
+    {
+      "page_16": []
+    },
+    {
+      "page_17": []
+    }
+  ],
+  "header": {
+    "layout": {
+      "LARGE": "layout_2",
+      "SMALL": "layout_32"
+    },
+    "height": {
+      "LARGE": 118
+    },
+    "backgroundColor": "#ffffff",
+    "sticky": true
+  },
+  "customTheme": {
+    "typography": {
+      "fontFamilyBase": "Avenir Next",
+      "fontSizeRoot": "100%"
+    }
+  },
+  "timestamp": 1723211283925,
+  "controllerPanels": {}
+}
